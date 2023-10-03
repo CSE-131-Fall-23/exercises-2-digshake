@@ -9,6 +9,7 @@ public class KeyboardDemo {
 		//Wait until the user presses a key, checking periodically
 		while(!StdDraw.hasNextKeyTyped()) {
 			StdDraw.pause(100);
+			
 		}
 		
 		//What character was pressed? Provide a response

@@ -9,7 +9,7 @@ public class GraphicsDemo {
 	public static void main(String[] args) {
 		//Using a built-in color
 		StdDraw.setPenColor(Color.GREEN);
-		StdDraw.filledSquare(0.5, 0.5, .2);
+		StdDraw.filledSquare(0.2, 0.5, .2);
 		
 		//Using a custom color
 		Color purply = new Color(255, 0, 150);

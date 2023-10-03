@@ -22,8 +22,14 @@ public class Stats {
 		//Using scanner to read from a file
 		//Modify and add to the code below
 		//to complete the exercise
+		double max = in.nextDouble();
 		while(in.hasNextDouble()) {
-			System.out.println(in.nextDouble());
+			double value = in.nextDouble();
+			if(value > max) {
+				max = value;
+			}
+			
 		}
+		System.out.println(max);
 	}
 }

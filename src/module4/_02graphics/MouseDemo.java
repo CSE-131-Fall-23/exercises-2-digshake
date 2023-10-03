@@ -13,14 +13,14 @@ public class MouseDemo {
 			double y = StdDraw.mouseY();
 
 			//Did user press the mouse button?
-			boolean isPressed = StdDraw.mousePressed();
+			boolean isPressed = StdDraw.isMousePressed();
 			
 			//Display information
 			System.out.println("X = " + x + ", and Y = " + y);
 			System.out.println("Mouse pressed ? " + isPressed);
 			
 			//Repeat once per second
-			StdDraw.pause(1000);
+			StdDraw.pause(100);
 		}
 	}
 }
